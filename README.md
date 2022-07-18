@@ -1,6 +1,5 @@
 # Developer Disk Images for iOS
-This is a repo for Apple Developer Disk Images for iOS (11.0-16.0)
-This will make a menu appear in settings that looks like this:
+This is a repo for Apple Developer Disk Images for iOS (11.0-16.0) \ This will make a menu appear in settings that looks like this:
 ![Developer menu](https://raw.githubusercontent.com/justanobody2107/AppleDeveloperDiskImages/main/Screenshots/DevMenu.jpg)
 
 Installation is quite easy.
