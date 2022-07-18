@@ -5,14 +5,20 @@ This will make a menu appear in settings that looks like this:
 
 Installation is quite easy.
 
-## With Mac
+## With Mac (easy but long)
 - Install Xcode
-- If these files are missing, drag .dmg and .signature for your iOS version into `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/<iOS version>`
 - Connect your phone and launch Xcode
-- Debug any app.
+- Build/Debug any app using your phone
+- In the rare case that the developer images are missing, drag .dmg and .signature for your iOS version into `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport/<iOS version>` then repeat the last 2 steps
+
+## With Mac (less easy but short)
+- Install [libimobiledevice](https://libimobiledevice.org/)
+- Connect your phone, and run `idevicepair pair`
+- `cd` into directory where the .dmg and .signature files are saved
+- Run command `ideviceimagemounter <DevDiskImage> <DevDiskImageSignature>`
 
 ## With Linux
-- Install [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice)
+- Install [libimobiledevice](https://libimobiledevice.org/)
 - Connect your phone, and hit trust this computer
 - Verify that phone is paired by running `idevicepair pair`
 - `cd` into directory where the .dmg and .signature files are saved
