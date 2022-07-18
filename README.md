@@ -9,8 +9,10 @@ Installation is quite easy.
 - Connect your phone and launch Xcode
 - Debug any app.
 
-## With Linux/Windows
+## With Linux
 - Install [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice)
+- Connect your phone, and hit trust this computer
+- Verify that phone is paired by running `idevicepair pair`
 - `cd` into directory where the .dmg and .signature files are saved
 - Run command `ideviceimagemounter <DevDiskImage> <DevDiskImageSignature>`
 
