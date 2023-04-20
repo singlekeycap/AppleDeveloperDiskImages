@@ -27,4 +27,12 @@ Installation is quite easy.
 - `cd` into directory where the .dmg and .signature files are saved
 - Run command `ideviceimagemounter <DevDiskImage> <DevDiskImageSignature>`
 
+## With Windows
+- If on iOS 16, enable developer mode on your phone
+- Install [libimobiledevice suite (exe)](https://github.com/L1ghtmann/libimobiledevice)
+- Connect your phone, and hit trust this computer
+- Verify that phone is paired by running `idevicepair pair`
+- `cd` into directory where the .dmg and .signature files are saved
+- Run command `ideviceimagemounter <DevDiskImage> <DevDiskImageSignature>`
+
 ### Enjoy!
